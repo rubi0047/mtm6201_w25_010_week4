@@ -9,5 +9,23 @@
     <header>
         <h1>Responsive Images</h1>
     </header>
+    <main>
+        <section>
+            <h2>Same images different sizes</h2>
+            <img 
+            srcset="https://placehold.co/320x320 320w,
+            https://placehold.co/640x400 640w,
+            https://placehold.co/1024x600 1024w" 
+            
+            sizes="
+            (max-width: 320px) 320px,
+            (max-width: 640x) 640px,
+            (max-width: 1024px) 1024px" 
+            
+            src="https://placehold.co/600x400" 
+            
+            alt="placeholder">
+        </section>
+    </main>
 </body>
 </html>
